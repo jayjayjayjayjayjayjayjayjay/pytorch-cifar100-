@@ -2,14 +2,6 @@
 
 practice on cifar100 using pytorch
 
-## Requirements
-
-This is my experiment eviroument
-- python3.6
-- pytorch1.6.0+cu101
-- tensorboard 2.2.2(optional)
-
-
 ## Usage
 
 ### 1. enter directory
@@ -35,8 +27,8 @@ $ tensorboard --logdir='runs' --port=6006 --host='localhost'
 You need to specify the net you want to train using arg -net
 
 ```bash
-# use gpu to train vgg16
-$ python train.py -net vgg16 -gpu
+# use gpu to train resnet18
+$ python train.py -net resnet18
 ```
 
 sometimes, you might want to use warmup training by set ```-warm``` to 1 or 2, to prevent network
