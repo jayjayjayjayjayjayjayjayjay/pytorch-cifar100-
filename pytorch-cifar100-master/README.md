@@ -86,7 +86,7 @@ Normally, the weights file with the best accuracy would be written to the disk w
 ### 5. test the model
 Test the model using test.py
 ```bash
-$ python test.py -net vgg16 -weights path_to_vgg16_weights_file
+$ python test.py -net resnet18 -weights path_to_vgg16_weights_file
 ```
 
 ## Implementated NetWork
