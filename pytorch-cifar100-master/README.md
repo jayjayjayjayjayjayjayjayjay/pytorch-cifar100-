@@ -173,4 +173,12 @@ better result.
 |cifar100|stochasticdepth101|42.69M|21.28|5.39|60|60|40|40|200|
 
 
+##만약 AssertionError: Torch not compiled with CUDA enabled 이 뜬다면 에러 페이지 옆 경로를 들어가
+
+
+```bash
+$ from cllections.abs import Mapping
+```
+
+을 추가해준다.
 
